@@ -1,0 +1,51 @@
+.uploadExcelFile {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2em;
+}
+
+.dataHighlight {
+  background-color: #e0f7e9; /* Example: Light blue background */
+  color: #000; /* Optional: Text color for better readability */
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.inputDiv {
+  justify-content: center;
+  display: flex;
+}
+
+.middleData {
+  border-radius: 12px;
+  padding: 10px;
+  background-color: wheat;
+  width: 50%;
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  margin: 0 auto; /* Center the element horizontally */
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Center the element vertically and horizontally */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visual */
+}
+
+/* .input {
+  justify-content: center;
+  margin: 0;
+} */
+
+.table {
+  display: flex;
+}
+.heading {
+  display: Flex;
+}
